@@ -1,0 +1,49 @@
+body {
+    font: 400 15px Tahoma; /*Familia sans-serif*/
+    line-height: 1.8;
+    color: #818181;
+    font-size: medium;
+}
+
+header ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline;
+    margin: 10px;
+}
+h1 {
+    background-color:#FF5733;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 100px 25px;
+    text-align: center;
+    font-size: 3.7em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.6em;
+}
+h4{
+    font-size: 0.8em
+}
+h5{
+    font-size: 0.7em;
+}
+h6{
+    font-size: 0.6em;
+}
+h1,h2,h3,h4,h5,h6{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+}
+h1,h3,h5{
+    font-stretch: expanded;
+}
+h2,h4,h6{
+    font-style: italic; 
+}
