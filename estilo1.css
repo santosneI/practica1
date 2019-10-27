@@ -14,7 +14,7 @@ body {
 }
 
 section{
-    margin: 30px;
+    padding: 20px;
 }
 
 header{
@@ -98,7 +98,7 @@ h6{
     font-size: 0.4em;
 }
 h1,h2,h3,h4,h5,h6{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; /*familia sans-serif */
         font-weight: bold;
         text-transform: uppercase;
         color: #FFFFD9;
@@ -113,7 +113,7 @@ h2,h4,h6{
     font-style: italic; 
 }
 p,ul,td{
-    font-family: serif;
+    font-family: serif; /*familia serif*/
     font-size: 1.2em;
 }
 p{
@@ -144,4 +144,46 @@ section > table{
 table{
     border-collapse: separate;
     border-spacing: 10px 10px;
+    margin: auto;
+}
+img{
+    margin: 20px;
+}
+img.lsp{
+    float: left;
+}
+
+img.tony{
+    float: right;
+}
+p.tony{
+    clear: right;
+}
+img.chase{
+    float: left;
+}
+p.chase{
+    clear: left;
+}
+img.rodaje{
+    float: left;
+}
+img.janice{
+    float: right;
+}
+img.lsp2{
+    float: left;
+}
+img.torres{
+    float: right;
+}
+
+section.referencias h3{
+    text-align: left;
+    background-color: #151518;
+}
+section.referencias{
+    background-color: #151518;
+    margin-bottom: 20px;
+    opacity: 0.9;
 }
