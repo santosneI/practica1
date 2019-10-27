@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5,h6{
         text-transform: uppercase;
         color: #FFFFD9;
         background-color: #2C2A33;
-        padding: 10px,10px,10px;
+        padding: 10px 10px 10px;
         text-align: center;
 }
 h1,h3,h5{
@@ -118,16 +118,15 @@ p,ul,td{
 }
 p{
     text-align: justify;
-    text-justify: newspaper;
+    text-justify: distribute-all-lines;
 }
 p::first-letter{
     font-size: 1.3em;
 }
 p,ul,table,blockquote{
     color: #fff;
-    background-color: none;
 }
- a:visited{
+a:visited{
     color: aqua;
     border-bottom: none;
     text-decoration-line: line-through;
