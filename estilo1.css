@@ -118,7 +118,7 @@ p,ul,td{
 }
 p{
     text-align: justify;
-    text-justify: distribute-all-lines;
+    text-justify: auto;
 }
 p::first-letter{
     font-size: 1.3em;
