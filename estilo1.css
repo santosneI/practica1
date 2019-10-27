@@ -1,26 +1,86 @@
 body {
     font: 400 15px Tahoma; /*Familia sans-serif*/
     line-height: 1.8;
-    color: #818181;
-    font-size: medium;
+    font-size: large;
+    color: #fff;
+    margin :0px 0px;
+    border: 0px;
+    background-image: url(multimedia/nubes.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: grey;
+}
+
+section{
+    margin: 30px;
+}
+
+header{
+    background-color: #151518;
+    opacity: .8;
+    color: #fff;
+    margin: 0px;
+}
+
+header a:link{
+    color: #fff;
+    text-decoration: none;
+    border-bottom:none;
+}
+
+header a:visited {
+    color: #fff;
+    text-decoration: none;
+    border-bottom:none;
 }
 
 header ul{
     text-align: center;
     list-style-type: none;
+    color: #fff;
+    background-color: #151518;
 }
 
 header ul li{
     display: inline;
     margin: 10px;
 }
-h1 {
-    background-color:#FF5733;
+header h1{
+    background-color: #151518;
     color: #fff;
+}
+footer{
+    background-color: #151518;
+    opacity: .9;
+    color: #fff;
+    margin: 0px;
+}
+
+footer ul{
+    color: #fff;
+    background-color: #151518;
+}
+footer ul li{
+    display: inline;
+    margin: 10px;
+    font-size: small;
+}
+footer h5{
+    background-color: #151518;
+    color: #fff;
+    text-align: left;
+
+}
+
+h1 {
     text-transform: uppercase;
-    padding: 100px 25px;
+    padding: 10px 25px;
     text-align: center;
-    font-size: 3.7em;
+    font-size: 3em;
+    letter-spacing: 2em;
+    border-radius: 30px;
 }
 h2{
     font-size: 2em;
@@ -29,7 +89,7 @@ h3{
     font-size: 1.6em;
 }
 h4{
-    font-size: 0.8em
+    font-size: 0.8em;
 }
 h5{
     font-size: 0.7em;
@@ -40,10 +100,48 @@ h6{
 h1,h2,h3,h4,h5,h6{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
+        text-transform: uppercase;
+        color: #FFFFD9;
+        background-color: #2C2A33;
+        padding: 10px,10px,10px;
+        text-align: center;
 }
 h1,h3,h5{
     font-stretch: expanded;
 }
 h2,h4,h6{
     font-style: italic; 
+}
+p,ul,td{
+    font-family: serif;
+    font-size: 1.2em;
+}
+p{
+    text-align: justify;
+    text-justify: newspaper;
+}
+p::first-letter{
+    font-size: 1.3em;
+}
+p,ul,table,blockquote{
+    color: #fff;
+    background-color: none;
+}
+ a:visited{
+    color: aqua;
+    border-bottom: none;
+    text-decoration-line: line-through;
+}
+a:link{
+    color :seashell;
+    border-bottom:1px dotted #9999CC;
+    text-decoration:none;
+}
+section > table{
+    background-color: #2C2A33;
+    opacity: 0.82;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 10px 10px;
 }
